@@ -5,8 +5,12 @@
 
 # Projekt für die Schule - Autovermietung mit Frontend und WebApi
 
+## Clone the repository from github
+## Add the restify package to your local machine
 
-# How to start the project
+```npm install restify --save-dev```
+
+## Start the project
 
 ```node app.js``` to start the instance
 
