@@ -1,5 +1,14 @@
 {
+  "name": "autovermietung_hhek",
+  "description": "Autovermietung - Projekt für die Schule",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "restify": "^8.6.0",
+    "restify-errors": "8.0.2"
+  },
   "devDependencies": {
-    "restify": "^8.6.0"
+    "nodemon": "^1.12.1"
   }
 }
