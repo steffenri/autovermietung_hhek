@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <body>
           <div className="main">
-            <h1>This is the main container</h1>
+            <h1>Autovermietung Belesh 123</h1>
             <p>Gib einen Namen ein, um einen einfachen Get Request zu testen</p>
             <form>
               <input
