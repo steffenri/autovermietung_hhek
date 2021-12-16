@@ -3,6 +3,20 @@ import "./App.css";
 
 function App() {
   const [name, setName] = useState("");
+  const [body, setBody] = useState("");
+  const [data, setData] = useState();
+
+  const onSubmit = () => {
+    // send post request
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ title: body }),
+    };
+    fetch("http://localhost:8080/api/test", requestOptions)
+      .then((response) => response.json())
+      .then((data) => setData(data));
+  };
 
   return (
     <div className="App">
@@ -25,6 +39,18 @@ function App() {
             >
               get request testen
             </a>
+          </div>
+          <div className="post">
+            <p>Gib Informationen ein um einen Post Request zu testen</p>
+            <form>
+              <input
+                value={body}
+                onChange={(e) => setBody(e.target.value)}
+                placeholder="Body"
+              />
+              <button onClick={() => onSubmit()}>post request testen</button>
+            </form>
+            <div className="output">{data && <div>{data}</div>}</div>
           </div>
         </body>
       </header>
