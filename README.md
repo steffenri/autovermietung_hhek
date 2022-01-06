@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# autovermietung_hhek
+1,0 komm ran yabi
+
+# Projekt für die Schule - Autovermietung mit Frontend und WebApi
+
+## Clone the repository from github
+
+# Start the backend server
+## Add the restify package to your local machine
+
+```npm install restify --save-dev```
+## Start the project
+```node app.js``` to start the instance
+
+
+
+
+# Start the frontend part
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
