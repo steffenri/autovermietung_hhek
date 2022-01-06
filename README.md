@@ -1,6 +1,11 @@
 # autovermietung_hhek
 1,0 komm ran yabi
 
+## Used packages:
+- create-react-app
+- restify
+
+
 # Projekt für die Schule - Autovermietung mit Frontend und WebApi
 
 ## Clone the repository from github
